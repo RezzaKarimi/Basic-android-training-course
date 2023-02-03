@@ -1,0 +1,285 @@
+<resources>
+
+    <string name="test">This is the test</string>
+    <string name="app_name">Faradars_lessons</string>
+    <!--01-->
+    <string name="se01_quest">شما از چه سیستم عاملی استفاده می کنید؟</string>
+    <string name="android">Android</string>
+    <string name="mac">Mac Os X</string>
+    <string name="windows">Windows</string>
+    <string name="ios">ios</string>
+    <string name="ubuntu">Ubuntu</string>
+    <string name="result">شما از سیستم عامل %s استفاده میکنید!</string>
+    <!--01-->
+
+
+    <!--02-->
+    <string name="renegades">Renegades</string>
+    <string name="renegades_description">
+داستان این فیلم اکشن و مهیج که به کارگردانی استیون کوال هست ، درباره‌ی یک تیم از ملوانان نیروی دریایی می‌باشد که یک گنج بزرگ پنهان را در یک دریاچه در بوسنی کشف می‌کنند و…
+</string>
+    <string name="jeepers">Jeepers Creepers 3</string>
+    <string name="jeepers_description">
+مترسک‌های ترسناک ۳ ، فیلمی ترسناک و مهیج به کارگردانی ویکتور سالوا است. داستان قسمت سوم فیلم بین قسمت اول و دوم این سری رخ می‌دهد. جاناتان برک نقش هیولا را همانند دو قسمت پیشین بازی می‌کند و…
+</string>
+    <string name="hampstead">Hampstead</string>
+    <string name="hampstead_description">
+همپستد ، فیلمی کمدی و ماجرایی محصول سال ۲۰۱۷ به کارگردانی جوئل هاپکینز است. در خلاصه داستان این فیلم آمده است ، امیلی که نزدیک همپستد در محله‌ای خوش‌منظره‌ در شمال لندن زندگی می‌کند ، یک روز به طور اتفاقی با دونالد که از دیگران گریزان است و تنها زندگی می‌کند آشنا می‌شود. اما وقتی که خانه‌ی او مورد تهدید توسعه‌دهندگان املاک که به دنبال ساختن آپارتمان‌های مجلل در این زمین هستند ، قرار می‌گیرد ، این دو به نیروهای مبارزه کننده با این تهدید می‌پیوندند و…
+</string>
+    <string name="england">England Is Mine 2017</string>
+    <string name="england_description">انگلستان از من است ، فیلمی بیوگرافی محصول سال ۲۰۱۷ به کارگردانی مارک گیل است. این فیلم روایتی از زندگی موریسی و دوران جوانی او در دهه‌ی ۱۹۷۰ در شهر منچستر قبل از اینکه تبدیل به خواننده‌ی اصلی گروه معروف اسمیتز شود را دارد و…</string>
+
+    <string name="snowman">The Snowman 2017</string>
+    <string name="snowman_description">آدم‌برفی ، فیلمی جنایی و رازآلود محصول سال ۲۰۱۷ به کارگردانی توماس آلفردسون است. در این فیلم مایکل فاسبندر بازیگر بسیار معروف سینمای جهان به ایفای نقش می‌پردازد. در خلاصه داستان این فیلم جنایی آمده است ، یک کارآگاه ماجراجوی نروژی شروع به تحقیق برای پیدا کردن بزرگترین قاتل سریالی کشورش می‌کند. اما اتفاقاتی عجیب باعث ایجاد خلل در روند پیگیری پرونده می‌شود و…</string>
+
+
+    <string name="vincent">Loving Vincent 2017 </string>
+    <string name="vincent_description">وینسنت دوست‌داشتنی ، فیلمی انیمیشنی محصول سال ۲۰۱۷ به کارگردانی دوروتا کوبیلا و هیو ولچمن است. داستان این فیلم انیمیشنی درباره‌ی زندگی ونسان ون گوگ هنرمند بسیار معروف هلندی است. هنرمند و نفاشی که در یک دهه بیش از ۲۱۰۰ کار هنری تولید کرد و…</string>
+
+
+    <string name="brawl">Brawl in Cell Block 99 2017</string>
+    <string name="brawl_description">نزاع در بند ۹۹ ، فیلمی جنایی و مهیج محصول سال ۲۰۱۷ به کارگردانی اس کریگ زاهلر است. داستان فیلم در مورد یک بوکسور بازنشسته به نام بردلی توماس می‌باشد که به عنوان یک خلافکار مشغول فعالیت است ، اما طولی نمی‌کشد که سر از زندان در می‌آورد. جایی که دشمنان او را مجبور به استفاده از خشونت می‌کنند و…
+</string>
+
+
+    <string name="bright">Bright 2017 </string>
+    <string name="bright_description">درخشان ، فیلمی اکشن و فانتزی به کارگردانی دیوید آیر هست. اتفاقات فیلم در زمانی رخ می‌افتد که انسان‌ها ، اورک‌ها ، الف‌ها و پری‌ها همه در یک مجموعه زندگی می‌کنند و فیلم به دو پلیس کاملا متفاوت می‌پردازد. یکی از آنها یک انسان است و دیگری یک اورک می‌باشد. آنها باید با تمام تفاوت‌های شخصیتی خود کنار بیایند و برای محافظت از یک الف جوان با یکدیگر کار کنند و هر اشتباهی در این بین می‌تواند به نابودی همه چیز منجر شود و…</string>
+
+
+    <string name="eden">Project Eden Vol I 2017 </string>
+    <string name="eden_description">در خلاصه داستان این فیلم علمی تخیلی آمده است ، ایولین گرین پس از اینکه در‌می‌یابد فرزند مبتلا به بیماری کاتاتونیش ممکن هست در مرکز یک دسیسه‌ی‌ جهانی باشد ، ناخواسته تبدیل به یک فراری می‌شود. اما در این بین یک افسر سابق نظامی به کمک او می‌آید و…</string>
+
+    <string name="undo">Undo</string>
+
+
+    <!--02-->
+
+
+    <!--03-->
+    <string name="name">نمایش اسم اثر</string>
+    <string name="image">نمایش تصویر اثر</string>
+    <string name="description">نمایش توضیحات اثر</string>
+    <string name="Column_num">تعداد ستون</string>
+
+
+    <!--03-->
+
+    <!--04-->
+    <string name="farzad_kazemi">فرزاد کاظمی </string>
+    <string name="farzad_kazemi_song">غبار</string>
+    <string name="farzad_kazemi_view">484</string>
+    <string name="farzad_kazemi_like">17</string>
+    <string name="farzad_kazemi_comment">0</string>
+    <string name="farzad_kazemi_date">16 دی 1396</string>
+
+    <string name="milad_jahani">میلاد جهانی  </string>
+    <string name="milad_jahani_song">قول بده که میمونی</string>
+    <string name="milad_jahani_view">1611</string>
+    <string name="milad_jahani_like">26</string>
+    <string name="milad_jahani_comment">2</string>
+    <string name="milad_jahani_date">16 دی 1396</string>
+
+
+    <string name="mehdi_jahani">مهدی جهانی </string>
+    <string name="mehdi_jahani_song"> شدی دیوونه</string>
+    <string name="mehdi_jahani_view">2997</string>
+    <string name="mehdi_jahani_like">78</string>
+    <string name="mehdi_jahani_comment">1</string>
+    <string name="mehdi_jahani_date">16 دی 1396</string>
+
+
+    <string name="arad_shock">آراد شوک </string>
+    <string name="arad_shock_song">مثل بقیه</string>
+    <string name="arad_shock_view">3910</string>
+    <string name="arad_shock_like">95</string>
+    <string name="arad_shock_comment">3</string>
+    <string name="arad_shock_date">16 دی 1396</string>
+
+
+    <string name="shadmehr_jamali">شادمهر جمالی </string>
+    <string name="shadmehr_jamali_song">یک سال پیش</string>
+    <string name="shadmehr_jamali_view">3467</string>
+    <string name="shadmehr_jamali_like">83</string>
+    <string name="shadmehr_jamali_comment">2</string>
+    <string name="shadmehr_jamali_date">>16 دی 1396</string>
+
+
+    <string name="amin_pouya">امین پویا </string>
+    <string name="amin_pouya_song">دیوونگی</string>
+    <string name="amin_pouya_view">2771</string>
+    <string name="amin_pouya_like">81</string>
+    <string name="amin_pouya_comment">0</string>
+    <string name="amin_pouya_date">15 دی 1396</string>
+
+
+    <string name="milad_nourbakhsh">میلاد نوربخش </string>
+    <string name="milad_nourbakhsh_song">عطر تن تو</string>
+    <string name="milad_nourbakhsh_view">6075</string>
+    <string name="milad_nourbakhsh_like">125</string>
+    <string name="milad_nourbakhsh_comment">3</string>
+    <string name="milad_nourbakhsh_date">15 دی 1396</string>
+
+
+    <string name="saman_jamal">سامان جمال </string>
+    <string name="saman_jamal_song">یه نگاه</string>
+    <string name="saman_jamal_view">7634</string>
+    <string name="saman_jamal_like">161</string>
+    <string name="saman_jamal_comment">1</string>
+    <string name="saman_jamal_date">15 دی 1396</string>
+
+
+    <string name="mjavad">محمد جواد بحیرایی </string>
+    <string name="mjavad_song">اوهام</string>
+    <string name="mjavad_view">3501</string>
+    <string name="mjavad_like">65</string>
+    <string name="mjavad_comment">0</string>
+    <string name="mjavad_date">14 دی 1396</string>
+
+
+    <string name="sajad_esmaili">سجاد اسماعیلی  </string>
+    <string name="sajad_esmaili_song">کاری کن برام</string>
+    <string name="sajad_esmaili_view">8546</string>
+    <string name="sajad_esmaili_like">85</string>
+    <string name="sajad_esmaili_comment">8</string>
+    <string name="sajad_esmaili_date">۷ام دی, ۱۳۹۶</string>
+
+
+    <string name="songName">Song Name</string>
+    <string name="singerName">Singer Name</string>
+
+
+    <!--04-->
+    <!-- 09 -->
+    <string name="check">Check Permission</string>
+    <string name="Granted">Permission Granted</string>
+    <string name="Declined">Permission Refused</string>
+
+    <!-- 09 -->
+
+    <!-- 11 -->
+
+    <string name="previous_song">قبلی</string>
+    <string name="next_song">بعدی</string>
+    <string name="letsgo">بزن بریم</string>
+    <!-- 11 -->
+
+    <!-- 12 -->
+    <string name="chat">Chat</string>
+    <string name="contacts">Contacts</string>
+    <string name="status">Status</string>
+    <!-- 12 -->
+
+    <!-- 13 -->
+    <string name="profile_name">Pickachu</string>
+    <string name="profile_email">pickachu@gmail.com</string>
+    <string name="welcome">Welcome</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Logout</string>
+
+    <!-- 13 -->
+
+    <!-- 15 -->
+
+    <string name="title_contacts">Contacts</string>
+
+    <!-- 15 -->
+    , , ,, , , , ,
+
+    <!-- 18 -->
+    <string name="font">Font </string>
+    <string name="none">Default </string>
+    <string name="black">Black </string>
+    <string name="bunny">Bunny </string>
+    <string name="charlotte">Charlotte </string>
+    <string name="christmas">Christmas </string>
+    <string name="envelope">Envelope </string>
+    <string name="fabulous">Fabulous </string>
+    <string name="locust">Locust </string>
+    <string name="micky">Micky </string>
+    <string name="monospace">Monospace </string>
+    <string name="sans">Sans </string>
+    <string name="serif">Serif </string>
+    <!-- 18 -->
+
+    <!-- 19 -->
+    <string name="fontOverride">Fonts Override</string>
+    <!-- 19 -->
+
+
+    <!-- 20 -->
+    <string name="backPressed">On Back Pressed</string>
+    <!-- 20 -->
+
+
+    <!-- 21 -->
+    <string-array name="items">
+
+        <item>E01_CustomSpinner</item>
+        <item>E02_CustomListView</item>
+        <item>E03_CustomGridView</item>
+        <item>E04_CustomRecyclerView</item>
+        <item>E05_TabWidget</item>
+        <item>E06_BasicActivity</item>
+        <item>E07_Actionbar</item>
+        <item>E08_Fragment</item>
+        <item>E09_Permission</item>
+        <item>E10_Contacts</item>
+        <item>E11_ViewPager</item>
+        <item>E12_TabbedActivity</item>
+        <item>E13_DrawerLayout</item>
+        <item>E14_NavigationDrawer</item>
+        <item>E15_BottomNavigation</item>
+        <item>E16_AlertDialog</item>
+        <item>E17_CustomAlertDialog</item>
+        <item>E18_CustomFonts</item>
+        <item>E19_FontOverride</item>
+        <item>E20_BackPressed</item>
+        <item>E21_FinalActivity</item>
+
+    </string-array>
+    <!-- 21 -->
+
+    <!-- splash -->
+    <string name="salam">Born to Learn</string>
+    <!-- splash -->
+
+
+    <string-array name="test">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="title_activity_e06__basic">E06_BasicActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_e12_tabbed">E12_tabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_e12__tabbed">E12_TabbedActivity</string>
+    <string name="title_activity_e14__navigation_drawer">E14_NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_e15__bottom_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_bottom">MainActivity</string>
+    <string name="title_activity_main__e15">MainActivity</string>
+    <string name="title_activity_e15_bo">MainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/tools"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="3dp">
+
+
+    <io.github.rockerhieu.emojicon.EmojiconTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/layout_bg_me"
+        android:layout_alignParentRight="true"
+        emojicon:emojiconAlignment="baseline" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/seen_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_done_all_24"
+        android:layout_below="@id/message"
+        android:layout_toLeftOf="@id/date"
+        app:tint="@color/seen"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/message"
+        android:layout_marginTop="6dp"
+        android:text="20:57:34"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

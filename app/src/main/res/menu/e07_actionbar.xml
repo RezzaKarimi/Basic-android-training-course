@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Contacts"
+        android:title="Contacts"
+        android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Status"
+        android:title="Status"
+        android:icon="@drawable/ic_baseline_emoji_emotions_24"
+        android:iconTint="@color/white"
+        app:showAsAction="never" />
+
+
+</menu>

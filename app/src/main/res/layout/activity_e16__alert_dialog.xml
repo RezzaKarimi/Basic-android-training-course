@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Episodes.E16_AlertDialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:text="Alert Dialog"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:hint="Title"
+        android:textColorHint="@color/e04background"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Message"
+        android:textColorHint="@color/e04background"
+        android:layout_below="@id/title"/>
+
+    <EditText
+        android:id="@+id/positive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Positive Button"
+        android:textColorHint="@color/e04background"
+        android:layout_below="@id/message"
+        android:layout_toLeftOf="@id/positiveCB"/>
+
+    <CheckBox
+        android:id="@+id/positiveCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message"
+        android:layout_alignParentRight="true"/>
+
+    <EditText
+        android:id="@+id/negative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Negative Button"
+        android:textColorHint="@color/e04background"
+        android:layout_below="@id/positive"
+        android:layout_toLeftOf="@id/negativeCB"/>
+
+    <CheckBox
+        android:id="@+id/negativeCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/positive"
+        android:layout_alignParentRight="true"/>
+
+    <EditText
+        android:id="@+id/neutral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Neutral Button"
+        android:textColorHint="@color/e04background"
+        android:layout_below="@id/negative"
+        android:layout_toLeftOf="@id/negativeCB"/>
+
+    <CheckBox
+        android:id="@+id/neutralCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/negative"
+        android:layout_alignParentRight="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Input"
+        android:layout_below="@id/neutral"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/neutral"
+        android:layout_alignParentRight="true"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Alert Dialog"
+        android:layout_alignParentBottom="true"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+</RelativeLayout>

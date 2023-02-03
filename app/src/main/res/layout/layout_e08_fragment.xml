@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/chat_page_background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/appBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pickachu"
+                android:layout_centerInParent="true"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+                android:layout_centerVertical="true"
+                app:tint="@color/white"
+                android:padding="8dp"
+                android:layout_marginLeft="8dp"/>
+
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ChatPage"
+        android:layout_below="@id/appBar"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/no_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Write your first message..."
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:id="@+id/ChatPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/emoji"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_baseline_emoji_emotions_24"
+                android:layout_above="@id/emoji_Linear"/>
+
+            <io.github.rockerhieu.emojicon.EmojiconEditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_toRightOf="@id/emoji"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/send"
+                app:emojiconSize="28sp"
+                android:paddingLeft="8dp"
+                android:maxLines="5"
+                android:hint="Type your message ..." />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/send"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_baseline_send_24"
+                app:tint="@color/black"
+                android:paddingRight="8dp"
+                android:layout_alignParentRight="true"
+                android:layout_above="@id/emoji_Linear"
+                android:background="?selectableItemBackgroundBorderless"/>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/emoji_Linear"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_below="@id/editText">
+
+                <fragment
+                    android:id="@+id/emojicons"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    class="io.github.rockerhieu.emojicon.EmojiconsFragment"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

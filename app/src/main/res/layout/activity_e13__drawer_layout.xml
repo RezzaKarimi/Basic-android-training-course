@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Episodes.E13_DrawerLayout">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_below="@id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/disable">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                app:srcCompat="@drawable/ic_baseline_favorite_border_24"
+                android:layout_above="@+id/textView"
+                android:layout_centerHorizontal="true"
+                app:tint="@color/separator"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/welcome"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/separator"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:id="@+id/header_container"
+                android:layout_width="match_parent"
+                android:layout_height="140dp">
+
+                <ImageView
+                    android:id="@+id/header_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/chat_page_background"
+                    android:scaleType="centerCrop"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/header_cardView"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="10dp">
+                <ImageView
+                    android:id="@+id/header_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pokemon_profile"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/header_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/header_cardView"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/profile_name"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/header_name"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/profile_email"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="10dp" />
+
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/header_container"
+                android:background="@color/panel_background"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>

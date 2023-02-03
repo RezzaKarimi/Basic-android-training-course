@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Episodes.E03_CustomGridView">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linear"
+        android:numColumns="2"
+        android:id="@+id/gridView" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight=".5"
+            android:weightSum="1">
+
+            <CheckBox
+                android:onClick="onClick"
+                android:id="@+id/name"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_weight=".5"/>
+
+            <CheckBox
+                android:onClick="onClick"
+                android:id="@+id/image"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_weight=".5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight=".5"
+            android:weightSum="1">
+
+            <CheckBox
+                android:onClick="onClick"
+                android:id="@+id/description"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_weight=".5"/>
+
+            <EditText
+                android:id="@+id/columnNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Column_num"
+                android:textColorHint="@color/white"
+                android:layout_weight=".5"
+                android:text="2"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

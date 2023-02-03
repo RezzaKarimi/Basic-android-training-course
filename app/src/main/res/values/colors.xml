@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>]
+    <color name="white">#f1f1f1</color>
+    <!--e04-->
+    <color name="e04background">#aa212121</color>
+    <color name="SongName">#3A81BA</color>
+
+
+    <!--e04-->
+    <!--08-->
+    <color name="black">#000000</color>
+    <color name="ChatBackground">#cccccc</color>
+    <color name="seen">#2196F3</color>
+    <!--08-->
+    
+    <!--12-->
+    <color name="disable">#99cccccc</color>
+    <!--12-->
+
+    <!--13-->
+    <color name="panel_background">#E5DDD5</color>
+    <color name="separator">#DDcccccc</color>
+    <!--13-->
+
+
+
+    <!--21-->
+    <color name="firstBackground">#DFECEB</color>
+    <color name="No1">#ff8531</color>
+    <color name="No2">#ff2331</color>
+    <color name="No3">#ff2389</color>
+    <color name="No4">#ff9999</color>
+    <color name="No5">#109999</color>
+    <color name="No6">#102199</color>
+    <color name="No7">#402150</color>
+    <color name="No8">#405020</color>
+    <color name="No9">#505050</color>
+    <color name="No10">#102030</color>
+    <color name="No11">#302010</color>
+    <color name="No12">#806026</color>
+    <color name="No13">#80ff26</color>
+    <color name="No14">#8060ff</color>
+    <color name="No15">#ff6026</color>
+    <!--21-->
+
+
+
+</resources>
